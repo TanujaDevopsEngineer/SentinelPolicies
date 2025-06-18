@@ -4,4 +4,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "demo" {
   bucket = "tanuja-demo-bucket-1234"
+  tags = {
+    Owner = "Tanuja"
+  }
 }
