@@ -6,3 +6,10 @@ terraform.tfvars
 .sentinel/
 tfplan.binary
 tfplan.json
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+*.plan
+*.binary
+*.json.terraform/
